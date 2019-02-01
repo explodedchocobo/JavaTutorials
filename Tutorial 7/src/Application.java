@@ -8,10 +8,10 @@ public class Application {
 		Scanner input = new Scanner(System.in);
 		
 		// Output the prompt
-		System.out.println("Enter an integer: ");
+		System.out.println("Enter a floating point value: ");
 		
 		// Wait for the user to enter something
-		int value = input.nextInt();
+		double value = input.nextDouble();
 		
 		// Tell them what they entered
 		System.out.println("You entered: " + value);
